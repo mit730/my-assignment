@@ -1,38 +1,168 @@
-.App {
-  text-align: center;
-}
+ *{
+  margin: 0;
+  padding: 0;
+  font-family: 'Mulish', sans-serif;
+ }
+ .heading{
+   align-items: center;
+   align-content: center;
+   text-transform: uppercase;
+   margin-left: 35rem;
+ }
+ .main{
+   display: flex;
+   width: auto;
+   gap: 5px;
+   margin: 10px;
+ }
+ .Item{
+    width: 30rem; 
+   /* width: 25%;
+   margin: 0 0.5rem; */
+   text-transform: uppercase;
+   
+ }
+ .Item h3{
+  font-size: 15px;
+  margin: 15px;
+  padding: 0px;
+ }
+ 
+ .card{
+   width: 300px;
+   margin: 10px 17px;
+ }
+ .main-title h5{
+   font-size: 15px;
+   margin: 15px;
+   font-weight: bold;
+ }
+ .text-muted{
+   margin-left: 5px;
+   text-transform:lowercase;
+   letter-spacing: 1px;
+ }
+ .btn{
+   font-size: 10px;
+   display: flex;
+   justify-content: space-evenly;
+   color: blue;
+ }
+ .btn1, .btn2{
+  font-size: 0.8rem;
+ }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+ .dot{
+  width: 1rem;
+    height: 1rem;
+    border-radius: 1rem;
+    background: gray;
+    margin: 0.3rem;
+    cursor: pointer;
+ }
+ 
+ li{
+  display: list-item;
+  text-align: -webkit-match-parent;
+ }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+ body {
+  background: #fff;
+  color: rgb(5, 4, 4);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+} 
+.container{
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 20px;
+}
+.dotList{
+  padding: 0;
+  -webkit-align-items: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: flex;
+  list-style-type: none;
+  -webkit-justify-content: center;
+  justify-content: center;
+  margin-left: 450px;
+}
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+
 }
 
-.App-link {
-  color: #61dafb;
+ul li{
+  display: inline-block;
+  margin: 0 10px;
+}
+.card-img-top{
+  width: 100%;
+  /* margin-top: 1rem; */
+  
+}
+.circle{
+  width: 3rem;
+  border: none;
+}
+.circle{
+  height: 3rem;
+  border: none;
+}
+.paginatorContainer {
+  width: 100%;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: right;
+  justify-content: right;
+  margin-top: 1rem;
+  padding: 0 1rem;
+  margin-right: -8rem;
+}
+.fa-solid{
+  position: relative;
+  left: -2rem;
+}
+ .btn-warning {
+  margin: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+  /* .Item{
+       width:25%;
+       margin:0
+        .5rem
+       }
+       .Item:first-of-type{
+         margin:0 .5rem 0 0
+       }
+       .Item:last-of-type{
+         margin:0 0 0 .5rem
+       }
+       .image{
+         margin-top:1rem;width:100%
+       }
+       .car_Image{
+         height:auto;width:100%
+       }   */
+@media screen and (max-width:1000px){
+  .image{
+    -webkit-flex-shrink:0;
+    flex-shrink:0;
+    -webkit-flex-grow:0;
+    flex-grow:0;
+    -webkit-flex-basis:75%;
+    flex-basis:75%;
+    width:75%
   }
 }
+  
